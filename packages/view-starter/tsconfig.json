@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist/types",
+    "target": "ES2019",
+    "module": "ESNext",
+    "useDefineForClassFields": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "noEmit": false,
+    "declaration": true,
+    "types": ["vite/client"]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "node_modules",
+    "dist",
+    "tests"
+  ]
+}

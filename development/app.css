@@ -1,0 +1,28 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#calendar {
+  width: 1200px;
+  max-width: 90%;
+  height: 800px;
+  max-height: 100vh;
+  /*margin-left: 200px;*/
+}
+
+/** Mimi är bäst */
+
+.read-the-docs {
+  color: #888;
+}

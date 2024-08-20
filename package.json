@@ -1,0 +1,34 @@
+{
+  "name": "extension-builder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "clean:build": "rimraf ./packages/*/dist",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.23.1"
+  },
+  "devDependencies": {
+    "@fontsource/open-sans": "^5.0.22",
+    "@fontsource/roboto-condensed": "^5.0.16",
+    "@lerna/batch-packages": "^3.16.0",
+    "@lerna/filter-packages": "^6.4.1",
+    "@lerna/project": "^6.4.1",
+    "@preact/preset-vite": "^2.9.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@schedule-x/calendar": "^1.58.1",
+    "@schedule-x/shared": "^1.58.1",
+    "@schedule-x/theme-default": "^1.58.1",
+    "rimraf": "^6.0.1",
+    "rollup-plugin-import-css": "^3.5.1",
+    "rollup-plugin-ts": "^3.4.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
